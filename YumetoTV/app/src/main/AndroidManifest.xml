@@ -18,6 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.YumetoTV">
         <activity
+            android:name=".ui.login.LoginActivity"
+            android:exported="false"
+            android:label="@string/title_activity_login" />
+        <activity
             android:name=".MainActivity"
             android:banner="@drawable/app_icon_your_company"
             android:exported="true"
